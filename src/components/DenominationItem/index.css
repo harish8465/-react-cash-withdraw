@@ -1,0 +1,16 @@
+/* Write your CSS here */
+li {
+  color: #ffffff;
+  list-style-type: none;
+}
+.button {
+  height: 30px;
+  width: 100px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #382f5a;
+  border: 1px solid #c4c4c4;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}

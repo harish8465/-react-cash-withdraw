@@ -1,0 +1,59 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card-container {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #150b3e;
+}
+.profile-image {
+  background-color: #c7d2fe;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  color: #c7d2fe;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.profile-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.balance-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+p {
+  color: #585076;
+}
+.amount {
+  color: #ffffff;
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+.sum-para {
+  margin-bottom: 10px;
+  color: #585076;
+  font-size: x-small;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
